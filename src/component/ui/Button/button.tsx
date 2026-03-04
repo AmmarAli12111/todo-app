@@ -38,7 +38,7 @@ const Button = ({
   return <button ref={ref} type={type} className={cn("btn flex items-center justify-center cursor-pointer font-medium sm:text-[14px] transition-all duration-300",
       "disabled:opacity-50 disabled:cursor-not-allowed",
       variant === "primary" && "bg-stone-200 text-stone-800 hover:bg-stone-300",
-      variant === "secondary" && "bg-[#db4c3f] text-white hover:bg-[#bb4d43]",
+      variant === "secondary" && "bg-[#c0392b] text-white hover:bg-[#a93226]",
       variant === "outline" && "bg-transparent text-stone-800 border border-stone-300 hover:bg-stone-50",
       variant === "ghost" && "bg-transparent text-stone-800 hover:bg-stone-100",
       variant === "danger" && "bg-[#dc2626] text-white hover:bg-[#dc2626]/80",

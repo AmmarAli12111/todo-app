@@ -1,5 +1,8 @@
 # Todo List App
 
+## Live Demo
+[View App](https://todo-app-tawny-six-95.vercel.app/)
+
 A clean, fast, and focused task manager built with React, TypeScript, and Vite. It supports priorities, status filtering, and local persistence so your tasks are ready when you return.
 
 **Features**
@@ -9,6 +12,8 @@ A clean, fast, and focused task manager built with React, TypeScript, and Vite. 
 - Filter by priority and status (active or completed)
 - LocalStorage persistence
 - Empty state UI and lightweight animations
+- Reusable component library (Button, Dropdown, Modal, Textarea)
+- Keyboard navigation and accessibility support
 
 **Tech Stack**
 - React 19
@@ -45,7 +50,8 @@ npm run preview
 **Project Structure**
 - `src/App.tsx` routing entry
 - `src/pages/Index.tsx` main task list page
-- `src/hooks/useTasks.tsx` task state and persistence
+- `src/hooks/useTasks.ts` task state: add, update, delete, toggle, and persistence
+- `src/component/ui/` reusable UI components (Button, Dropdown, Modal, Textarea)
 - `src/component/` UI and feature components
 
 **Notes**

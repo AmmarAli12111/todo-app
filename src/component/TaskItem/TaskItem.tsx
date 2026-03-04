@@ -58,10 +58,10 @@ const TaskItem = ({ task, onToggle, onDelete, onEdit }:TaskItemProps) => {
       </button>
       <div className="task-item-main-content flex gap-2 flex-1">
         <div className="task-item-text-content">
-          <h3 className={cn(
+          <p className={cn(
             "task-item-title m-0 text-[#1c1917] text-sm font-medium leading-5 wrap-anywhere",
             task.completed && 'text-muted-fg line-through'
-          )}>{task.title}</h3>
+          )}>{task.title}</p>
           {task.description ? (
             <p className="task-item-description m-0 text-stone-500 text-sm font-normal leading-4 wrap-anywhere">{task.description}</p>
           ) : null}
